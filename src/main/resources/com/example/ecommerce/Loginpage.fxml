@@ -12,11 +12,10 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ecommerce.LoginpageController">
    <children>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#629ccf" height="500.0" stroke="BLACK" strokeType="INSIDE" width="500.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#114e86" height="47.0" layoutX="149.0" layoutY="38.0" opacity="0.09" stroke="BLACK" strokeType="INSIDE" width="159.0" />
-      <Label blendMode="SRC_ATOP" layoutX="166.0" layoutY="38.0" prefHeight="47.0" prefWidth="124.0" text="Login Page" textAlignment="JUSTIFY" textFill="#630404">
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#629ccf" height="450.0" stroke="BLACK" strokeType="INSIDE" width="500.0" />
+      <Label blendMode="SRC_ATOP" layoutX="140.0" layoutY="32.0" prefHeight="76.0" prefWidth="192.0" text="Login Page" textAlignment="JUSTIFY" textFill="#0a5625">
          <font>
-            <Font size="25.0" />
+            <Font name="System Bold" size="36.0" />
          </font>
          <cursor>
             <Cursor fx:constant="DEFAULT" />
@@ -25,22 +24,23 @@
             <Blend />
          </effect>
       </Label>
-      <Label layoutX="73.0" layoutY="119.0" prefHeight="18.0" prefWidth="40.0" text="Email">
+      <Label layoutX="73.0" layoutY="136.0" prefHeight="18.0" prefWidth="40.0" text="Email">
          <font>
             <Font size="14.0" />
          </font>
       </Label>
-      <Label layoutX="73.0" layoutY="221.0" text="Password">
+      <Label layoutX="73.0" layoutY="240.0" text="Password">
          <font>
             <Font size="14.0" />
          </font>
       </Label>
-      <TextField fx:id="email" layoutX="73.0" layoutY="147.0" promptText="Email" />
-      <PasswordField fx:id="password" layoutX="73.0" layoutY="250.0" promptText="password" />
-      <Button layoutX="213.0" layoutY="337.0" mnemonicParsing="false" onMouseClicked="#login" prefHeight="26.0" prefWidth="80.0" text="Login">
+      <TextField fx:id="email" layoutX="73.0" layoutY="166.0" promptText="Email" />
+      <PasswordField fx:id="password" layoutX="73.0" layoutY="275.0" promptText="password" />
+      <Button layoutX="210.0" layoutY="357.0" mnemonicParsing="false" onMouseClicked="#login" prefHeight="26.0" prefWidth="80.0" text="Login">
          <font>
             <Font name="System Bold" size="14.0" />
          </font>
       </Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff9f" height="50.0" layoutY="450.0" stroke="BLACK" strokeType="INSIDE" width="500.0" />
    </children>
 </AnchorPane>
